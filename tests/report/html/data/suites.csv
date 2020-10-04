@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_login_token_book#test_login_book","123","通过循环list获取可执行的用例,对请求参数做反序列化处理"
+"passed","test_login_token_book#test_login_book","121","通过循环list获取可执行的用例,对请求参数做反序列化处理"
+"passed","test_login_token_book#test_login_book","129","通过循环list获取可执行的用例,对请求参数做反序列化处理"
+"passed","test_login_token_book#test_login_book","136","通过循环list获取可执行的用例,对请求参数做反序列化处理"
+"passed","test_login_token_book#test_login_book","138","通过循环list获取可执行的用例,对请求参数做反序列化处理"

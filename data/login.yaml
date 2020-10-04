@@ -1,0 +1,83 @@
+#用户登录成功
+#url: http:127.0.0.1:5000/login
+#method: post
+#data: '{"username":"无涯","password","age":18,"sex":"男"}'
+#expect: {"username":"无涯"}
+#
+#---
+#url: http:127.0.0.1:5000/login
+#method: post
+#data: '{"password":,"age":18,"sex":"男"}'
+#except: {"username": "用户名不能为空"}
+
+
+#url: http://127.0.0.1:5000/login
+#method: post
+#data:
+#  username: 无涯
+#  password: admin
+#  age: 18
+#  sex: 男
+#expect:
+#  username: 无涯
+#
+#---
+#url: http://127.0.0.1:5000/login
+#method: post
+#data:
+#  password: admin
+#  age: 18
+#  sex: 男
+#expect:
+#  username: 用户名不能为空
+
+
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: 无涯
+  password: admin
+  age: 18
+  sex: 男
+expect: 无涯
+
+
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  password: admin
+  age: 18
+  sex: 男
+expect: 用户名不能为空
+
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: 无涯
+  age: 18
+  sex: 男
+expect: 账户密码不能为空
+
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: 无涯
+  password: admin
+  age: 18
+  sex: 的可能打开
+expect: 性别只能是男或者女
+
+---
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: 无涯
+  password: admin
+  age: 18.11
+  sex: 男
+expect: 年龄必须为正正数
+
+

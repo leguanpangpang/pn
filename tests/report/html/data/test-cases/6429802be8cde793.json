@@ -1,0 +1,178 @@
+{
+  "uid" : "6429802be8cde793",
+  "name" : "test_login_book[datas4]",
+  "fullName" : "test_login_token_book#test_login_book",
+  "historyId" : "beb22a2d8a291fc143b367c170d3af10",
+  "time" : {
+    "start" : 1601109433596,
+    "stop" : 1601109433734,
+    "duration" : 138
+  },
+  "description" : "通过循环list获取可执行的用例,对请求参数做反序列化处理",
+  "descriptionHtml" : "<p>通过循环list获取可执行的用例,对请求参数做反序列化处理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1601109432962,
+      "stop" : 1601109432962,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1601109432962,
+      "stop" : 1601109432962,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1601109432962,
+      "stop" : 1601109432962,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_skip_sensitive",
+    "time" : {
+      "start" : 1601109433595,
+      "stop" : 1601109433595,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-VO039UUE"
+  }, {
+    "name" : "thread",
+    "value" : "16588-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a183ea5f9beb7e08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601108763951,
+        "stop" : 1601108764065,
+        "duration" : 114
+      }
+    }, {
+      "uid" : "51ee3d26f9466f4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601108000860,
+        "stop" : 1601108000967,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "206dacd98951b5ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601107645041,
+        "stop" : 1601107645153,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "7c0de82eb9241896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601107330922,
+        "stop" : 1601107331034,
+        "duration" : 112
+      }
+    }, {
+      "uid" : "184094983d91468e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601091323306,
+        "stop" : 1601091323428,
+        "duration" : 122
+      }
+    }, {
+      "uid" : "c347c4b34b587081",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601090931243,
+        "stop" : 1601090931359,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "bfb11fd7eadcdb59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601090733770,
+        "stop" : 1601090733960,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "bc1d1b1a5e1f7470",
+      "status" : "passed",
+      "time" : {
+        "start" : 1601090593117,
+        "stop" : 1601090593229,
+        "duration" : 112
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6429802be8cde793.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookID}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}
